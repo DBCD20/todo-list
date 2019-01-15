@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 1.6em;
+  font-family: sans-serif;
+}
+.wrapper {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.4)), url("https://images.pexels.com/photos/1769356/pexels-photo-1769356.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260") no-repeat center;
+  background-size: cover;
+  padding: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h2 {
+  font-weight: 100;
+  padding: 1em 0;
+}
+.App {
+  max-width: 500px;
+  margin: 0 auto;
+  min-height: 450px;
+  padding: 2em;
+  color: black;
+  background: white;
+  box-shadow: -19px -15px black, 20px 15px lightgrey;
+}
+input {
+  border: none;
+  border-bottom: 0.5px solid lightgrey;
+  padding: 1em;
+
+}
+input, button {
+  width: 100%;
+}
+input[type='checkbox'] {
+  width: 20px;
+}
+ol {
+  padding: 1em;
+}
+li {
+  color: dimgray;
+  letter-spacing: 0.057em;
+  border-bottom: 0.5px solid lightgrey;
+  word-wrap: break-word;
+}
+.done {
+  text-decoration: line-through;
+  font-style: italic;
+  color: lightgrey;
+}
